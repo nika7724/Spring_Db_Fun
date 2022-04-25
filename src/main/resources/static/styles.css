@@ -1,0 +1,79 @@
+table {
+    margin: auto;
+    border-collapse: collapse;
+    width: 40%;
+}
+
+th{
+    border: 1px solid whitesmoke;
+    text-align: center;
+    font-family: "Calibri";
+    color: dimgrey;
+    background-color: lightblue;
+    padding: 2px;
+}
+ td {
+     border:1px solid whitesmoke;
+     text-align: left;
+     font-family: "Calibri Light";
+     color: dimgrey;
+     padding: 2px;
+ }
+
+ tr:nth-child(even) {
+     background-color: lightblue;
+ }
+
+ button {
+     width: 50px;
+ }
+
+/*styles button column's width*/
+#btn-column {
+    width: 160px;
+}
+
+a {
+    text-decoration: none;
+}
+
+ a:hover {
+     cursor:none;
+ }
+ .btn {
+     margin: fill;
+     border: none;
+     color:white;
+     padding: 2px 5px;
+     text-align: center;
+ }
+
+ button:hover {
+     cursor: pointer;
+          box-shadow: 2px 2px 2px darkgray;
+ }
+
+ #btn-add {
+     margin-left: 40%;
+     margin-top: 2%;
+     width: auto;
+     font-size: larger;
+     font-family: "Calibri light";
+     background-color: lightblue;
+     color: dimgrey;
+ }
+
+ #btn-view {
+     background-color: lightgoldenrodyellow;
+     color: dimgrey;
+ }
+
+ #btn-delete {
+     background-color: darksalmon;
+     color: dimgrey;
+ }
+
+ #btn-edit {
+     background-color: darkseagreen;
+     color: dimgrey;
+ }
